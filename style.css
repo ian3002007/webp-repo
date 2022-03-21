@@ -1,0 +1,53 @@
+body{
+    background-color: lightyellow;
+}
+ul{
+    color: darkorange;
+}
+.header {
+    padding: 20px;
+  }
+  
+  @media (max-width: 959px) {
+    * {
+      padding: 10px;
+    }
+    body{
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    h1{
+        color:maroon;
+    }
+
+  }
+  
+  @media (max-width: 759px) {
+    * {
+      padding: 5px;
+    }
+    body{
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    h1{
+        color:mediumblue;
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    * {
+      padding: 0px;
+    }
+    body{
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    h1{
+        color:red;
+    }
+  }
