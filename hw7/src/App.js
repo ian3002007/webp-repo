@@ -27,7 +27,6 @@ class App extends Component {
           <TextField
           id="filled-email-input"
           label="Email"
-          type="password"
           autoComplete="current-password"
           variant="filled"
         />
